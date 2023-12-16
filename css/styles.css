@@ -1,0 +1,277 @@
+body {
+font-family: 'Roboto', sans-serif;
+color: #434455;
+font-size: 16px;
+font-style: normal;
+background-color: #FFF;
+line-height: 1.5;
+font-weight: 400;
+letter-spacing: 0.02em;
+width: 1440px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+padding: 0;
+margin: 0;
+}
+
+.logo {
+  color: #4D5AE5;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-decoration: none;
+  margin-right: 76px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-studio-header {
+  color: #2E2F42;
+}
+
+
+.menu-link {
+  color: #2E2F42;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 24px 0;
+  display: block;
+}
+
+.contacts {
+  font-style: normal;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #434455;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404BBF;
+}
+
+.hero  {
+  background-color: #2E2F42;
+  padding: 188px 0;
+}
+
+.hero-name {
+  color: #FFF;
+  text-align: center;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  max-width: 496px;
+  text-align: center;
+}
+
+.hero-button {
+  background-color: #4D5AE5;
+  color: #FFF;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  line-height: 1.5;
+  margin: 48px 163px 0 164px;
+  display: block;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404BBF;
+}
+
+.name-section, 
+.name-list {
+  color: #2E2F42;
+  letter-spacing: 0.02em;
+}
+
+
+.name-list {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.name-section {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.our-team {
+  background-color: #F4F4FD;
+}
+
+.our-team li {
+  background-color: #FFF;
+}
+
+.portfolio li {
+  border: 1px solid #E7E9FC;
+}
+
+.end-page {
+  background-color: #2E2F42;
+  color: #F4F4FD;
+  padding: 100px 0;
+}
+
+.logo-studio-footer {
+  color: #F4F4FD;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  display: block;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-right: 332px;
+}
+
+.header-info .container {
+  display: flex;
+}
+
+.contacts-list {
+  display: inline-flex;
+  gap: 40px;
+}
+
+.about-us-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.about-us-item {
+  width: 264px;
+}
+
+.team-list-item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+  width: 264px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list-item {
+  display: flex;
+  width: 360px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.text-footer {
+  width: 264px;
+}
+
+.team-list-card {
+  padding: 32px 0;
+}
+
+.portfolio-card {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.end-page .container a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
